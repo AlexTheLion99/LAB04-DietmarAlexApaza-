@@ -1,3 +1,3 @@
-Opinión sobre el lab
+Opinión sobre el laboratorio 3
 
 Me ha parecido que el lab sobre Git fue bastante útil para entender los conceptos básicos de ramas, commits y eliminación de ramas. El flujo de trabajo con ramas, tanto locales como remotas, ha sido bien explicado, y practicar con estos comandos ha mejorado mi manejo de Git.
