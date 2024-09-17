@@ -1,0 +1,25 @@
+1. ¿Cómo es que se instalan paquetes con yarn?
+Para poder instalar Yarn deberas tener instalado Node.js
+Para instalar paquetes con Yarn se debe usar el siguiente comando en un formato definido:
+--Formato correcto de usar Yarn
+yarn add <nombre-del-paquete>
+
+Ejemplo para instalar paquetes con Yarn
+-- yarn add [package] - ejemplo: yarn add vue
+-- yarn add [package]@[version] - ejemplo: yarn add vue@[2.6.8]
+-- yarn add [package] --dev - ejemplo: yarn add vue --dev
+
+
+2. ¿Cómo es que se borran paquetes con yarn?
+Para poder borrar los paquetes con Yarn deberas seguir el siguiente formato.
+--Formato correcto para borrar con Yarn
+yarn remove <nombre-del-paquete>
+
+Ejemplo para borrar paquetes con Yarn
+-- yarn remove[package] - ejemplo: yarn remove vue
+
+3. ¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+Si existe y el equivalente de npm init en Yarn es con el siguiente comando:
+-- yarn init
+Este comando inicia un nuevo proyecto de Yarn y crea un archivo package.json. También puedes agregar la opción -y para aceptar todas las configuraciones predeterminadas de forma automática:
+-- yarn init -y
